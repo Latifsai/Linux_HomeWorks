@@ -1,0 +1,10 @@
+   0 vi /tmp/file.txt
+   1 df -h | tail -3 >> /tmp/file.txt
+   2 chmod u-r,g+w,o+x /tmp/file.txt 
+   3 ls -l /tmp/
+   4 export NAME=Latif && export VAR=something 
+   5 echo $NAME >> /tmp/file.txt && echo $VAR >> /tmp/file.txt 
+   6 unset NAME && unset VAR
+   7 nano /tmp/file.txt 
+   8 history 
+   9 history > history.txt
